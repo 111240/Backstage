@@ -1,0 +1,80 @@
+$FontSize: 14px;  //通用字体大小
+$TextColor: #318C71;  //通用字颜色
+$CurrencyBackground: #1890ff;   //通用背景色
+$MainColorBackGround: #35786F;  //主色背景色
+$AccessoryColorBackGround: #001529; //副色背景色
+$SecondaryColorBackGround: #001529; //次色背景色
+$SuccessBackground: #3ac17e;  //成功背景色
+$ErrorBackground: #ff3737;  //错误背景色
+
+.font{
+  font-size: $FontSize;
+}
+.color{
+  color: $TextColor;
+}
+.default-bg{
+  background-color: white;
+}
+.default-co{
+  color: white;
+}
+.currency-bg{
+  background-color: $CurrencyBackground;
+}
+.main-bg{
+  background-color: $MainColorBackGround;
+}
+.accessory-bg{
+  background-color: $AccessoryColorBackGround;
+}
+.secondary-bg{
+  background-color: $SecondaryColorBackGround;
+}
+.success-bg{
+  background-color: $SuccessBackground;
+}
+.error-bg{
+  background-color: $ErrorBackground;
+}
+.ove{   //超出省略号
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.left{  //左浮动
+  float: left;
+}
+.right{ //右浮动
+  float: right;
+}
+.center{
+  text-align: center;
+}
+.box{
+  box-sizing: border-box;
+}
+.mt10{
+  margin-top: 10px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.mb10{
+  margin-bottom: 10px;
+}
+.mb20{
+  margin-bottom: 20px;
+}
+.ml10{
+  margin-left: 10px;
+}
+.ml20{
+  margin-left: 20px;
+}
+.mr10{
+  margin-right: 10px;
+}
+.mr20{
+  margin-right: 20px;
+}

@@ -1,13 +1,13 @@
 <template>
   <div class="home">
-    <Header/>
-    <h1>Home</h1>
-    <!-- <router-view/> -->
+    <shell-box>
+      <router-view></router-view>
+    </shell-box>
   </div>
 </template>
 
 <script>
-import Header from './header'
+import shellBox from './shellBox'
 export default {
   name: 'Home',
   data () {
@@ -16,11 +16,16 @@ export default {
     }
   },
   components: {
-    Header
+    shellBox
   }
 }
 </script>
 
 <style lang="scss">
-
+.home{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
 </style>
