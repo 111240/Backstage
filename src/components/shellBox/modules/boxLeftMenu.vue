@@ -105,7 +105,7 @@ export default {
   }
 }
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
 .top-left-meun{
   height: 100%;
   position: absolute;

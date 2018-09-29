@@ -32,11 +32,18 @@ export default {
     changeTabs (tab) {
       const arr = this.tabsList.filter(val => tab.name === val.title)
       this.$router.history.push(arr[0].path)
-      this.changeMenuActive(arr[0].name)
+      const params = {
+        avtive: arr[0].name,
+        path: arr[0].path,
+        title: arr[0].title
+      }
+      this.changeMenuActive(params)
     },
     remove (tab) {
       this.removeTabs(tab)
-      this.$router.history.push(this.delPath)
+      if (tab !== '首页') {
+        this.$router.history.push(this.delPath)
+      }
     }
   },
   components: {

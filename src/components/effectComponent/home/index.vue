@@ -52,10 +52,18 @@ export default {
           }
         ]
       })
+    },
+    getData () {
+      this.$axios.get('/123').then((item) => {
+        console.log(item)
+      })
     }
   },
   mounted () {
     this.echarts()
+  },
+  created () {
+    this.getData()
   }
 }
 </script>

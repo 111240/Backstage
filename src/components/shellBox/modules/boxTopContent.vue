@@ -47,7 +47,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .top-top-content{
   position: absolute;
   top: 0px;

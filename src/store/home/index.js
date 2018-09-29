@@ -35,7 +35,9 @@ export default {
       state.menuActive = data.name
     },
     changeMenuActive (state, data) {
-      state.menuActive = data
+      state.menuActive = data.avtive
+      state.delPath = data.path
+      state.activeName = data.title
     },
     removeTabs (state, data) {
       if (state.tabsList.length !== 1 && data !== '首页') {
