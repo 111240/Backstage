@@ -16,6 +16,7 @@ Vue.prototype.$echarts = echarts
 Vue.prototype.$axios = axios
 Vue.use(ElementUI)
 Vue.config.productionTip = false
+console.log('asdasdasdasdasdas')
 
 axios.interceptors.request.use(
   config => {
